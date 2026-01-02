@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'NanumSquareNeo', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #333;
+    accent-color: #256EF4;
+}
+
+*{
+    box-sizing: border-box;
+    word-break: keep-all;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}

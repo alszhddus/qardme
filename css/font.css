@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+/* 한글폰트 */
+/* NanumSquareNeo - 나눔스퀘어네오 */
+@font-face{
+	font-family: 'NanumSquareNeo';
+	font-weight: 200;
+	src:
+    url("/font/NanumSquareNeo-Lt.otf") format('otf'),
+	url("/font/NanumSquareNeo-Lt.woff2") format('woff2'),
+	url("/font/NanumSquareNeo-Lt.woff") format('woff');
+}
+@font-face{
+	font-family: 'NanumSquareNeo';
+	font-weight: 300;
+	src:
+    url("/font/NanumSquareNeo-Rg.otf") format('otf'),
+	url("/font/NanumSquareNeo-Rg.woff2") format('woff2'),
+	url("/font/NanumSquareNeo-Rg.woff") format('woff');
+}
+@font-face{
+	font-family: 'NanumSquareNeo';
+	font-weight: 400;
+	src:
+    url("/font/NanumSquareNeo-Bd.otf") format('otf'),
+	url("/font/NanumSquareNeo-Bd.woff2") format('woff2'),
+	url("/font/NanumSquareNeo-Bd.woff") format('woff');
+}
+@font-face{
+	font-family: 'NanumSquareNeo';
+	font-weight: 500;
+	src:
+    url("/font/NanumSquareNeo-Eb.otf") format('otf'),
+	url("/font/NanumSquareNeo-Eb.woff2") format('woff2'),
+	url("/font/NanumSquareNeo-Eb.woff") format('woff');
+}
+@font-face{
+	font-family: 'NanumSquareNeo';
+	font-weight: 600;
+	src:
+    url("/font/NanumSquareNeo-Hv.otf") format('otf'),
+	url("/font/NanumSquareNeo-Hv.woff2") format('woff2'),
+	url("/font/NanumSquareNeo-Hv.woff") format('woff');
+}
+
+
+/* Pretendard - 프리텐다드 */
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 100;
+	src:
+	url("/font/Pretendard-Thin.woff") format('woff'),
+	url("/font/Pretendard-Thin.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 200;
+	src:
+	url("/font/Pretendard-ExtraLight.woff") format('woff'),
+	url("/font/Pretendard-ExtraLight.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 300;
+	src:
+	url("/font/Pretendard-Light.woff") format('woff'),
+	url("/font/Pretendard-Light.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 400;
+	src:
+	url("/font/Pretendard-Regular.woff") format('woff'),
+	url("/font/Pretendard-Regular.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 500;
+	src:
+	url("/font/Pretendard-Medium.woff") format('woff'),
+	url("/font/Pretendard-Medium.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 600;
+	src:
+	url("/font/Pretendard-SemiBold.woff") format('woff'),
+	url("/font/Pretendard-SemiBold.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 700;
+	src:
+	url("/font/Pretendard-Bold.woff") format('woff'),
+	url("/font/Pretendard-Bold.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 800;
+	src:
+	url("/font/Pretendard-ExtraBold.woff") format('woff'),
+	url("/font/Pretendard-ExtraBold.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 900;
+	src:
+	url("/font/Pretendard-Black.woff") format('woff'),
+	url("/font/Pretendard-Black.woff2") format('woff2');
+}
+
+
+/* SCDream - 에스코어드림 */
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 100;
+	src:
+	url("/font/SCDream1.otf") format('otf'),
+	url("/font/SCDream1.woff") format('woff'),
+	url("/font/SCDream1.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 200;
+	src:
+	url("/font/SCDream2.otf") format('otf'),
+	url("/font/SCDream2.woff") format('woff'),
+	url("/font/SCDream2.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 300;
+	src:
+	url("/font/SCDream3.otf") format('otf'),
+	url("/font/SCDream3.woff") format('woff'),
+	url("/font/SCDream3.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 400;
+	src:
+	url("/font/SCDream4.otf") format('otf'),
+	url("/font/SCDream4.woff") format('woff'),
+	url("/font/SCDream4.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 500;
+	src:
+	url("/font/SCDream5.otf") format('otf'),
+	url("/font/SCDream5.woff") format('woff'),
+	url("/font/SCDream5.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 600;
+	src:
+	url("/font/SCDream6.otf") format('otf'),
+	url("/font/SCDream6.woff") format('woff'),
+	url("/font/SCDream6.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 700;
+	src:
+	url("/font/SCDream7.otf") format('otf'),
+	url("/font/SCDream7.woff") format('woff'),
+	url("/font/SCDream7.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 800;
+	src:
+	url("/font/SCDream8.otf") format('otf'),
+	url("/font/SCDream8.woff") format('woff'),
+	url("/font/SCDream8.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 900;
+	src:
+	url("/font/SCDream9.otf") format('otf'),
+	url("/font/SCDream9.woff") format('woff'),
+	url("/font/SCDream9.woff2") format('woff2');
+}
+
+
+/* RIDIBatang - 리디바탕 */
+@font-face{
+	font-family: 'RIDIBatang';
+	src:
+	url("/font/RIDIBatang.otf") format('otf'),
+	url("/font/RIDIBatang.woff") format('woff'),
+	url("/font/RIDIBatang.woff2") format('woff2');
+}
+
+
+/* NanumMyeongjo - 나눔명조 */
+@font-face{
+	font-family: 'NanumMyeongjo';
+	font-weight: 300;
+	src:
+	url("/font/NanumMyeongjo.otf") format('otf'),
+	url("/font/NanumMyeongjo.woff") format('woff'),
+	url("/font/NanumMyeongjo.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'NanumMyeongjo';
+	font-weight: 500;
+	src:
+	url("/font/NanumMyeongjoBold.otf") format('otf'),
+	url("/font/NanumMyeongjoBold.woff") format('woff'),
+	url("/font/NanumMyeongjoBold.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'NanumMyeongjo';
+	font-weight: 900;
+	src:
+	url("/font/NanumMyeongjoExtraBold.otf") format('otf'),
+	url("/font/NanumMyeongjoExtraBold.woff") format('woff'),
+	url("/font/NanumMyeongjoExtraBold.woff2") format('woff2');
+}
+
+
+/* 영어폰트 */
+/* Fair Prosper */
+@font-face{
+	font-family: 'Fair Prosper';
+	src:
+	url("/font/FairProsper.ttf") format('truetype'),
+	url("/font/FairProsper.woff") format('woff'),
+	url("/font/FairProsper.woff2") format('woff2');
+}
+
+
+/* Amperzand */
+@font-face{
+	font-family: 'Amperzand';
+	src:
+	url("/font/Amperzand.ttf") format('truetype'),
+	url("/font/Amperzand.woff") format('woff'),
+	url("/font/Amperzand.woff2") format('woff2');
+}
+
+
+/* CursiveSans */
+@font-face{
+	font-family: 'CursiveSans';
+	font-weight: 300;
+	src:
+	url("/font/CursiveSansBook.ttf") format('truetype'),
+	url("/font/CursiveSansBook.woff") format('woff'),
+	url("/font/CursiveSansBook.woff2") format('woff2');
+}
+@font-face{
+	font-family: 'CursiveSans';
+	font-weight: 900;
+	src:
+	url("/font/CursiveSansBold.ttf") format('truetype'),
+	url("/font/CursiveSansBold.woff") format('woff'),
+	url("/font/CursiveSansBold.woff2") format('woff2');
+}
+
+
+/* Quetine */
+@font-face{
+	font-family: 'Quetine';
+	src:
+	url("/font/Quetine.otf") format('otf'),
+	url("/font/Quetine.woff") format('woff'),
+	url("/font/Quetine.woff2") format('woff2');
+}
+
+
+
+/*Material Icons*/
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/font/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url('/font/MaterialIcons-Regular.woff2') format('woff2'),
+    url('/font/MaterialIcons-Regular.woff') format('woff'),
+    url('/font/MaterialIcons-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Material Icons Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+  url('/font/MaterialIconsOutlined-Regular.woff2') format('woff2'),
+  url('/font/MaterialIconsOutlined-Regular.woff') format('woff'),
+  url('/font/MaterialIconsOutlined-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Material Icons Round';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+  url('/font/MaterialIconsRound-Regular.woff2') format('woff2'),
+  url('/font/MaterialIconsRound-Regular.woff') format('woff'),
+  url('/font/MaterialIconsRound-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Material Icons Sharp';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+  url('/font/MaterialIconsSharp-Regular.woff2') format('woff2'),
+  url('/font/MaterialIconsSharp-Regular.woff') format('woff'),
+  url('/font/MaterialIconsSharp-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Material Icons TwoTone';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+  url('/font/MaterialIconsTwoTone-Regular.woff2') format('woff2'),
+  url('/font/MaterialIconsTwoTone-Regular.woff') format('woff'),
+  url('/font/MaterialIconsTwoTone-Regular.otf') format('otf');
+}
+
+.material-icons{font-family: 'Material Icons';font-weight: normal;font-style: normal;  display: inline-block;line-height: 1;text-transform: none;letter-spacing: normal; word-wrap: normal; white-space: nowrap;direction: ltr;-webkit-font-smoothing: antialiased;text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale;font-feature-settings: 'liga';line-height: 1;vertical-align: top; font-size: inherit;}
+.material-icons-outlined{font-family: 'Material Icons Outlined';font-weight: normal;font-style: normal;  display: inline-block;line-height: 1;text-transform: none;letter-spacing: normal; word-wrap: normal; white-space: nowrap;direction: ltr;-webkit-font-smoothing: antialiased;text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale;font-feature-settings: 'liga';line-height: 1;vertical-align: top; font-size: inherit;}
+.material-icons-round{font-family: 'Material Icons Round';font-weight: normal;font-style: normal;  display: inline-block;line-height: 1;text-transform: none;letter-spacing: normal; word-wrap: normal; white-space: nowrap;direction: ltr;-webkit-font-smoothing: antialiased;text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale;font-feature-settings: 'liga';line-height: 1;vertical-align: top; font-size: inherit;}
+.material-icons-sharp{font-family: 'Material Icons Sharp';font-weight: normal;font-style: normal;  display: inline-block;line-height: 1;text-transform: none;letter-spacing: normal; word-wrap: normal; white-space: nowrap;direction: ltr;-webkit-font-smoothing: antialiased;text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale;font-feature-settings: 'liga';line-height: 1;vertical-align: top; font-size: inherit;}
+.material-icons-two-tone{font-family: 'Material Icons TwoTone';font-weight: normal;font-style: normal;  display: inline-block;line-height: 1;text-transform: none;letter-spacing: normal; word-wrap: normal; white-space: nowrap;direction: ltr;-webkit-font-smoothing: antialiased;text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale;font-feature-settings: 'liga';line-height: 1;vertical-align: top; font-size: inherit;}
