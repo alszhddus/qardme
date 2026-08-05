@@ -67,7 +67,7 @@
     .logo-deco{
       display: inline-block;
       width: 50vw;
-      height: max-content;
+      height: 100%;
       background-color: var(--primary-color);
       position: absolute;
       top: 50%;
@@ -283,13 +283,17 @@
   <script>
 
       // logo-deco 있을 시 높이 값 자동 계산
-      const img = document.getElementById("previewImage");
-      const wrapper = document.querySelector(".logo-area");
-      const logoDeco = document.querySelector(".logo-deco");
-      const logoHeight = wrapper.offsetHeight;
+      // window.addEventListener("load", () => {
+      //   const img = document.getElementById("previewImage");
+      //   const wrapper = document.querySelector(".logo-area");
+      //   const logoDeco = document.querySelector(".logo-deco");
+        
+      //   // 이미지를 포함한 모든 요소가 로드된 후 높이 측정
+      //   const logoHeight = wrapper.offsetHeight;
 
-      wrapper.style.top = `calc(100% - ${logoHeight / 2}px)`;
-      logoDeco.style.height = logoHeight + 'px';
+      //   wrapper.style.top = `calc(100% - ${logoHeight / 2}px)`;
+      //   logoDeco.style.height = logoHeight + 'px';
+      // });
       
   </script>
 </body>
