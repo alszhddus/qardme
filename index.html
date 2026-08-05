@@ -199,6 +199,38 @@
       content: 'A';
     }
 
+    .sns{
+      display: flex;
+      gap: 5px;
+    }
+    .sns > a{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      text-decoration: none;
+      color: var(--primary-color);
+      font-weight: 600;
+      padding: 5px 15px;
+      background-color: var(--primary-color);
+      color: #ffffff;
+      border-radius: 8px;
+    }
+    .sns > a::after{
+      content: '\e89e';
+      font-family: 'Material Icons';
+      font-weight: 100;
+    }
+    .sns > a::before{
+      display: inline-block;
+      padding-top: 3px;
+    }
+    .sns > a:first-child::before{
+      content: url(images/tiktok-ico.svg);
+    }
+    .sns > a:nth-child(2)::before{
+      content: url(images/instagram-ico.svg);
+    }
+
     #intro{
       padding: 15px;
       border: 1px dashed var(--primary-color);
@@ -212,8 +244,8 @@
     <div class="inner top-area">
       <section>
         <div class="com-info">
-          <span id="companyName" data-field="companyName">주식회사콰드</span>
-          <span id="englishCompanyName" data-field="englishCompanyName">Quad Inc.</span>
+          <span id="companyName" data-field="companyName">콰드</span>
+          <span id="englishCompanyName" data-field="englishCompanyName">Quad</span>
         </div>
         <div class="logo-area land"><img id="previewImage" data-field="previewImage" src="images/qard-logo-white.svg" alt="로고"><div class="logo-deco"></div></div>
       </section>
@@ -228,17 +260,21 @@
           </div>
           <div class="line"></div>
           <div class="rank">
-            <span id="teamName" data-field="teamName">주식회사콰드</span>
-            <span id="rank" data-field="rank">디자이너</span>
+            <span id="teamName" data-field="teamName">QARD</span>
+            <span id="rank" data-field="rank">대표</span>
           </div>
         </div>
         <div class="communication-info">
           <span id="mobile" data-field="mobile">010-5514-8700</span>
-          <span id="fax" data-field="fax">042-1234-5678</span>
+          <!-- <span id="fax" data-field="fax">042-1234-5678</span> -->
           <span id="email" data-field="email">qardworks@gmail.com</span>
-          <span id="address" data-field="address">대전광역시 유성구 왕가봉로2번길 76 (노은동) 자인빌</span>
+          <!-- <span id="address" data-field="address">대전광역시 유성구 왕가봉로2번길 76 (노은동) 자인빌</span> -->
         </div>
-        <p id="intro" data-field="intro">만남을 기억으로 바꾸는 작은 사각형! 오늘 스쳐가는 많은 인사들 사이에서, 이 인사는 오래 남았으면 좋겠습니다 ☺️</p>
+        <div class="sns">
+          <a href="https://www.tiktok.com/@circle.rami?_r=1&_t=ZS-98dciZHgPYH">TikTok</a>
+          <a href="https://www.instagram.com/circle.rami?igsh=MW5sNGl1MGJocGExMA%3D%3D&utm_source=qr">Instagram</a>
+        </div>
+        <p id="intro" data-field="intro">만남을 기억으로 바꾸는 작은 사각형!<br>오늘 스쳐가는 많은 인사들 사이에서, 저와의 인사는 오래 남았으면 좋겠습니다 ☺️</p>
       </section>
     </div>
   </div>
