@@ -47,7 +47,8 @@
     .logo-area{
       position: absolute;
       left: 50%;
-      transform: translateX(-50%);
+      top: 100%;
+      transform: translate(-50%, -50%);
       background-color: var(--primary-color);
       width: 40%;
       height: auto;
@@ -282,18 +283,18 @@
 
   <script>
 
-      // logo-deco 있을 시 높이 값 자동 계산
-      // window.addEventListener("load", () => {
-      //   const img = document.getElementById("previewImage");
-      //   const wrapper = document.querySelector(".logo-area");
-      //   const logoDeco = document.querySelector(".logo-deco");
+      logo-deco 있을 시 높이 값 자동 계산
+      window.addEventListener("load", () => {
+        const img = document.getElementById("previewImage");
+        const wrapper = document.querySelector(".logo-area");
+        const logoDeco = document.querySelector(".logo-deco");
         
-      //   // 이미지를 포함한 모든 요소가 로드된 후 높이 측정
-      //   const logoHeight = wrapper.offsetHeight;
+        // 이미지를 포함한 모든 요소가 로드된 후 높이 측정
+        const logoHeight = wrapper.offsetHeight;
 
-      //   wrapper.style.top = `calc(100% - ${logoHeight / 2}px)`;
-      //   logoDeco.style.height = logoHeight + 'px';
-      // });
+        wrapper.style.top = `calc(100% - ${logoHeight / 2}px)`;
+        logoDeco.style.height = logoHeight + 'px';
+      });
       
   </script>
 </body>
